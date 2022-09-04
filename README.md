@@ -18,8 +18,9 @@ char password[NET_NAME_PASSWORD_LEN] = "password";     // password = password (s
 2) Choose downloading folder, changing it in **``downloadFromTo``** function.
 Default downloading folder hardcoded as "C:\\".
 
-3) To set the initial time, write it to a log.txt file and put it in ``IPCAS.exe`` folder.  
-``log.txt`` time format is YYYY.MM.DD_hh.mm.ss (example 2021.01.01_06:00:00).
+3) To set the start download date, write it to a log.txt file and put it in ``IPCAS.exe`` folder.  
+``log.txt`` time format is YYYY.MM.DD_hh.mm.ss (example 2021.01.01_06:00:00).  
+End download date will be current system time (or you can hardcode it in **``main``** function).
 
 P.S. Note, that ``NetSDK.dll`` and ``StreamReader.dll`` should be next to ``IPCAS.exe`` file.
 
