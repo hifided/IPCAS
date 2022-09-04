@@ -31,7 +31,7 @@ NetSDK.dll
 StreamReader.dll
 ````
 This Visual Studio project contains all necessary dependencies to run "from the box".
-If you want to change something, I added a ``netsdk`` folder with manual and some NetSDK C++ libraries for this project that I once found on the Internet.  
+If you want to change something, I added a ``netsdk`` folder with manual and some x64 NetSDK C++ libraries for this project that I once found on the Internet.  
 Now seems like they can't be found anymore, so if you text me, I can additionally share full С++/С# NetSDK libraries, template projects and manuals.
 
 P.S. The manual is older than dll, so some functions may not be described
